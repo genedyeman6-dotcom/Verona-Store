@@ -1,0 +1,155 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf7;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255,255,255,0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Hero */
+.hero-section {
+    height: 100vh;
+    background: url('images/11.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Content */
+.hero-content {
+    margin-top: 60px;
+}
+
+/* Verona */
+.brand-name {
+    font-family: "Great Vibes", cursive;
+    font-size: 8rem;
+}
+
+/* Store */
+.brand-sub {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Text */
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Titles */
+.section-title {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Categories */
+.category-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.category-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.category-card:hover img {
+    transform: scale(1.08);
+}
+
+.category-card:hover {
+    transform: translateY(-6px);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(232, 174, 183, 0.85);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Button */
+.order-btn {
+    background-color: #e8aeb7;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.order-btn:hover {
+    background-color: #d998a3;
+}
+
+/* Contact */
+.contact-section {
+    background-color: #fff0f5;
+}
+
+.social-icons a {
+    margin: 15px;
+    font-size: 28px;
+    color: #555;
+}
+
+.social-icons a:hover {
+    color: #e8aeb7;
+}
+
+/* Footer */
+.footer {
+    background-color: #fff0f5;
+    border-top: 1px solid #f3d6dc;
+}
+
+.footer p {
+    font-weight: bold;
+}
+
+/* WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #25d366, #128c7e);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .hero-section {
+        height: 70vh;
+    }
+
+    .brand-name {
+        font-size: 3.5rem;
+    }
+
+    .brand-sub {
+        font-size: 1rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+}
