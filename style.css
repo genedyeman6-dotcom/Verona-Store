@@ -2,13 +2,11 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #fffaf7;
 }
-
 /* Navbar */
 .navbar {
     background-color: rgba(255,255,255,0.9) !important;
     backdrop-filter: blur(10px);
 }
-
 /* Hero */
 .hero-section {
     height: 60vh;
@@ -17,36 +15,30 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 /* Content */
 .hero-content {
     margin-top: 60px;
 }
-
 /* Verona */
 .brand-name {
     font-family: "Great Vibes", cursive;
     font-size: 8rem;
 }
-
 /* Store */
 .brand-sub {
     font-size: 1.5rem;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-
 /* Text */
 .hero-section p {
     font-size: 1.2rem;
 }
-
 /* Titles */
 .section-title {
     font-weight: bold;
     color: #444;
 }
-
 /* Categories */
 .category-card {
     position: relative;
@@ -54,22 +46,18 @@ body {
     border-radius: 20px;
     transition: 0.4s;
 }
-
 .category-card img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     transition: 0.4s;
 }
-
 .category-card:hover img {
     transform: scale(1.08);
 }
-
 .category-card:hover {
     transform: translateY(-6px);
 }
-
 .overlay {
     position: absolute;
     bottom: 0;
@@ -80,7 +68,6 @@ body {
     padding: 10px;
     font-weight: bold;
 }
-
 /* Button */
 .order-btn {
     background-color: #e8aeb7;
@@ -89,21 +76,18 @@ body {
     padding: 10px 30px;
     font-weight: bold;
 }
-
 .order-btn:hover {
     background-color: #d998a3;
 }
-
 /* Contact */
-/* Contact Buttons Layout */
+/* Buttons*/
 .contact-buttons {
     display: flex;
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
 }
-
-/* Base button style */
+/* button*/
 .contact-buttons .btn {
     padding: 12px 30px;
     border-radius: 30px;
@@ -113,46 +97,37 @@ body {
     min-width: 160px;
     transition: 0.3s;
 }
-
 /* WhatsApp */
 .whatsapp-btn {
     background-color: #25D366;
 }
-
 .whatsapp-btn:hover {
     background-color: #1fb955;
     transform: scale(1.05);
 }
-
 /* Facebook */
 .facebook-btn {
     background-color: #1877F2;
 }
-
 .facebook-btn:hover {
     background-color: #145fd0;
     transform: scale(1.05);
 }
-
 /* Instagram */
 .instagram-btn {
     background: linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
 }
-
 .instagram-btn:hover {
     transform: scale(1.05);
 }
-
 /* Footer */
 .footer {
     background-color: #fff0f5;
     border-top: 1px solid #f3d6dc;
 }
-
 .footer p {
     font-weight: bold;
 }
-
 /* WhatsApp */
 .whatsapp-float {
     position: fixed;
@@ -167,33 +142,26 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 /* Responsive */
 @media (max-width: 768px) {
-
     .hero-section {
         height: 70vh;
     }
-
     .brand-name {
         font-size: 3.5rem;
     }
-
     .brand-sub {
         font-size: 1rem;
     }
-
     .hero-section p {
         font-size: 1rem;
     }
 }
 @media (max-width: 768px) {
-
     .contact-buttons {
         flex-direction: column;
         align-items: center;
     }
-
     .contact-buttons .btn {
         width: 90%;
     }
